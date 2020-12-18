@@ -51,7 +51,7 @@ func createRecord(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	router := mux.NewRouter()
-	router.HandleFunc("/employee/create", createRecord).Methods("post")
+	router.HandleFunc("/employee/create", createRecord).Methods("POST")
 	defer db.Close()
 	err := http.ListenAndServe(CONN_HOST+":"+CONN_PORT, router)
 	if err != nil {
