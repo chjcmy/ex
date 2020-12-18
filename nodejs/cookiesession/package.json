@@ -1,0 +1,13 @@
+{
+  "name": "cookiesession",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-session": "*"
+  }
+}

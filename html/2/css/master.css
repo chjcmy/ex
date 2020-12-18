@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "맑은 고딕","Malgun Gothic", MalugunGothic, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "나눔바른고딕", "Nanum Barun Gothic", NanumBarunGothic, sans-serif;
+}

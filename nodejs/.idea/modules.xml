@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cookiesession/cookiesession.iml" filepath="$PROJECT_DIR$/cookiesession/cookiesession.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjsRender/ejsrender.iml" filepath="$PROJECT_DIR$/EjsRender/ejsrender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expressjs/expressjs.iml" filepath="$PROJECT_DIR$/expressjs/expressjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expressrender/expressrender.iml" filepath="$PROJECT_DIR$/expressrender/expressrender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expressrouting/expressrouting.iml" filepath="$PROJECT_DIR$/expressrouting/expressrouting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exproject.iml" filepath="$PROJECT_DIR$/.idea/exproject.iml" />
+    </modules>
+  </component>
+</project>

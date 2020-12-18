@@ -1,0 +1,13 @@
+{
+  "name": "databinding",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-session": "*",
+    "mysql2": "*"
+  }
+}
