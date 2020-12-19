@@ -1,0 +1,21 @@
+{
+  "name": "reactjs-client",
+  "version": "1.0.0",
+  "description": "\"ReactJs Client",
+  "keywords": [
+    "react"
+  ],
+  "author": "Arpit Aggarwal",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "webpack-cli": "^4.2.0"
+  }
+}

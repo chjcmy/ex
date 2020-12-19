@@ -5,6 +5,7 @@ import (
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+	"os"
 )
 
 type Route struct {
@@ -72,6 +73,8 @@ func AddRoutes(router *mux.Router) *mux.Router {
 func main() {
 	muxRouter := mux.NewRouter().StrictSlash(true)
 	router := AddRoutes(muxRouter)
+	path, _ := os.Getwd()
+	println(path)
 	router.PathPrefix("/").Handler(http.FileServer(http.Dir("./goweb/vuejs/assets/")))
 	err := http.ListenAndServe(":8080", router)
 	if err != nil {

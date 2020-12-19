@@ -23,14 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec739a2c-7a2a-4639-a4c6-efe90c892c7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/reactjs/assets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/reactjs/assets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/reactjs/react-server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goweb/reactjs/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/vuejs/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/vuejs/assets/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/assets/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs-client.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/vuejs-client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/assets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/assets/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/vuejs-client.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +38,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Go File" />
+        <option value="HTML File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -68,6 +67,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -86,6 +86,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -95,23 +96,14 @@
       <recent name="C:\Users\chjcm\go\src\goex\goweb\tcp_data_write" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chjcm\Documents\GitHub\ex\goex\goweb\reactjs" />
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\goex\goweb\vuejs" />
       <recent name="C:\Users\chjcm\go\src\goex\goweb\login_form\html" />
       <recent name="C:\Users\chjcm\go\src\goex\goweb\login" />
       <recent name="C:\Users\chjcm\go\src\goex" />
-      <recent name="C:\Users\chjcm\go\src\goex\goweb\first_template\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build vuejs-client.go">
-    <configuration name="go build connect-mysql.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goex" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goweb/my_sql/connect-mysql.go" />
-      <package value="goex" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build react-server.go">
     <configuration name="go build create-record-mysql.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goex" />
       <working_directory value="$PROJECT_DIR$" />
@@ -127,6 +119,14 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/goweb/create-record-mysql/create-record-mysql.go" />
       <package value="goex/goweb/create-record-mysql" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build react-server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goex" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/goweb/reactjs/react-server.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -147,19 +147,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build connect-mysql.go" />
       <item itemvalue="Go Build.go build goex/goweb/create-record-mysql" />
       <item itemvalue="Go Build.go build create-record-mysql.go" />
       <item itemvalue="Go Build.go build vuejs-client.go (1)" />
       <item itemvalue="Go Build.go build vuejs-client.go" />
+      <item itemvalue="Go Build.go build react-server.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build react-server.go" />
         <item itemvalue="Go Build.go build vuejs-client.go" />
         <item itemvalue="Go Build.go build vuejs-client.go (1)" />
         <item itemvalue="Go Build.go build goex/goweb/create-record-mysql" />
         <item itemvalue="Go Build.go build create-record-mysql.go" />
-        <item itemvalue="Go Build.go build connect-mysql.go" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608111358949</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refix">
+      <created>1608352591774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608352591774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +275,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
