@@ -18,7 +18,7 @@ type Routes []Route
 var routes = Routes{
 	Route{
 		"getEmployees",
-		"Get",
+		"GET",
 		"/employees",
 		getEmployees,
 	},

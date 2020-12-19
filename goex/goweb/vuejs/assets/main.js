@@ -9,20 +9,18 @@ var vue_det = new Vue
     },
     methods: {
         addEmployee: function() {
-            this.$http.post (
+            this.$http.post(
                 '/employee/add', {
                     id: this.id,
                     firstName: this.firstName,
                     lastName: this.lastName
                 }
-            ).then (
-                    response => {
-                        console.log(response)
-                    },
-                error => {
-                        console.error(error);
-                }
-            );
+            ).then((response) => {
+                console.log(response);
+            })
+                .catch((error) => {
+                    console.log(error);
+                });
         }
     }
 });

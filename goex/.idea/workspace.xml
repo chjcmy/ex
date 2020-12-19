@@ -23,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec739a2c-7a2a-4639-a4c6-efe90c892c7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goweb/create-record-mysql/create-record-mysql.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goweb/my_sql/connect-mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/vuejs/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/assets/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goweb/vuejs/assets/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/assets/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs-client.go" beforeDir="false" afterPath="$PROJECT_DIR$/goweb/vuejs/vuejs-client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/assets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/assets/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/goweb/vuejs/vuejs/vuejs-client.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +54,13 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GoLibraries">
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1kdiHJMbuDqA3U1nzteKYoVNgS3" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -75,14 +79,14 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/goweb/vuejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,14 +95,14 @@
       <recent name="C:\Users\chjcm\go\src\goex\goweb\tcp_data_write" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chjcm\Documents\GitHub\ex\goex\goweb\vuejs" />
       <recent name="C:\Users\chjcm\go\src\goex\goweb\login_form\html" />
       <recent name="C:\Users\chjcm\go\src\goex\goweb\login" />
       <recent name="C:\Users\chjcm\go\src\goex" />
       <recent name="C:\Users\chjcm\go\src\goex\goweb\first_template\templates" />
-      <recent name="C:\Users\chjcm\go\src\goex\goweb\mux\simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build goex/goweb/create-record-mysql">
+  <component name="RunManager" selected="Go Build.go build vuejs-client.go">
     <configuration name="go build connect-mysql.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goex" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,12 +130,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build goex/goweb/my_sql" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build vuejs-client.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goex" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/goweb/my_sql/connect-mysql.go" />
-      <package value="goex/goweb/my_sql" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/goweb/vuejs/vuejs/vuejs-client.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -140,24 +143,23 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/goweb/vuejs/vuejs-client.go" />
-      <package value="goex" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build vuejs-client.go" />
-      <item itemvalue="Go Build.go build goex/goweb/my_sql" />
       <item itemvalue="Go Build.go build connect-mysql.go" />
       <item itemvalue="Go Build.go build goex/goweb/create-record-mysql" />
       <item itemvalue="Go Build.go build create-record-mysql.go" />
+      <item itemvalue="Go Build.go build vuejs-client.go (1)" />
+      <item itemvalue="Go Build.go build vuejs-client.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vuejs-client.go" />
+        <item itemvalue="Go Build.go build vuejs-client.go (1)" />
         <item itemvalue="Go Build.go build goex/goweb/create-record-mysql" />
         <item itemvalue="Go Build.go build create-record-mysql.go" />
         <item itemvalue="Go Build.go build connect-mysql.go" />
-        <item itemvalue="Go Build.go build goex/goweb/my_sql" />
-        <item itemvalue="Go Build.go build vuejs-client.go" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +268,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="first push!!!" />
     <MESSAGE value="알고리즘 생성 시작" />
     <MESSAGE value="db" />
@@ -275,7 +280,8 @@
     <MESSAGE value="git push" />
     <MESSAGE value="로그인" />
     <MESSAGE value="vuejs golang" />
-    <option name="LAST_COMMIT_MESSAGE" value="vuejs golang" />
+    <MESSAGE value="refix" />
+    <option name="LAST_COMMIT_MESSAGE" value="refix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
