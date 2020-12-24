@@ -13,6 +13,20 @@ class Subject extends Component {
   }
 }
 
+class Nv extends Component {
+    render() {
+        return (
+            <nav>
+                <ul>
+                    <li><a href="1.html">HTML</a></li>
+                    <li><a href="2.html">CSS</a></li>
+                    <li><a href="3.html">JAVAsCRIPT</a></li>
+                </ul>
+            </nav>
+        )
+    }
+
+}
 
 class App extends Component
 {
@@ -21,6 +35,7 @@ class App extends Component
         return (
             <div className="App">
                 <Subject />
+                <Nv />
             </div>
         );
     }

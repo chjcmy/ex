@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/ex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/.idea/first-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../first-react/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/.idea/react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../react/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserList.js" afterDir="false" />
-    </list>
+    <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../first-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,8 +54,16 @@
       <workItem from="1608613720493" duration="4929000" />
       <workItem from="1608638703640" duration="4116000" />
       <workItem from="1608695685348" duration="1198000" />
-      <workItem from="1608708032003" duration="7278000" />
+      <workItem from="1608708032003" duration="7961000" />
     </task>
+    <task id="LOCAL-00001" summary="reactjs">
+      <created>1608733252975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608733252975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="reactjs" />
+    <option name="LAST_COMMIT_MESSAGE" value="reactjs" />
   </component>
 </project>
