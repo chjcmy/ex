@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="" />
+    <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ginreact/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/going.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/gogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +47,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../first-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -55,6 +75,8 @@
       <workItem from="1608638703640" duration="4116000" />
       <workItem from="1608695685348" duration="1198000" />
       <workItem from="1608708032003" duration="7961000" />
+      <workItem from="1608872450021" duration="1052000" />
+      <workItem from="1608897249282" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="reactjs">
       <created>1608733252975</created>
@@ -63,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608733252975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="react">
+      <created>1608872487056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608872487056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reactjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactjs" />
+    <MESSAGE value="react" />
+    <option name="LAST_COMMIT_MESSAGE" value="react" />
   </component>
 </project>
