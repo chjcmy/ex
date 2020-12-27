@@ -2,7 +2,6 @@ package main
 
 import (
 	"database/sql"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"log"
@@ -23,23 +22,23 @@ func main() {
 
 	router.Use(CORSMiddleware())
 
-	router.POST("/gogin", func(c *gin.Context) {
+	router.GET("/gogin", func(c *gin.Context) {
 
-		first_name := c.PostForm("firstname")
-		last_name := c.PostForm("lastname")
+		//first_name := c.PostForm("firstname")
+		//last_name := c.PostForm("lastname")
 
 		db, err := sql.Open("mysql", "cshcmi:chltjdgus123!@tcp(192.168.0.9:3306)/exam")
-
-		result, err := db.Exec("INSERT INTO tests(title, content) VALUES (?, ?)", first_name, last_name)
-		if err != nil {
-			log.Fatal(err)
-		}
-
-		// sql.Result.RowsAffected() 체크
-		n, err := result.RowsAffected()
-		if n == 1 {
-			fmt.Println("1 row inserted.")
-		}
+		//
+		//result, err := db.Exec("INSERT INTO tests(title, content) VALUES (?, ?)", "first_name", "last_name")
+		//if err != nil {
+		//	log.Fatal(err)
+		//}
+		//
+		//// sql.Result.RowsAffected() 체크
+		//n, err := result.RowsAffected()
+		//if n == 1 {
+		//	fmt.Println("1 row inserted.")
+		//}
 
 		var (
 			test  Test

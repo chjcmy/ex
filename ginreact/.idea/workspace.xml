@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/going.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reactjs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reactjs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reactjs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/UserList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/useAsync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/gogin.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
@@ -64,7 +64,7 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,6 +111,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build ginreact/" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608745522920</updated>
       <workItem from="1608873914058" duration="18239000" />
+      <workItem from="1608968202333" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608839482932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="리액트 고랭">
+      <created>1608922184917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608922184917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +169,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gin" />
     <MESSAGE value="react" />
-    <option name="LAST_COMMIT_MESSAGE" value="react" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>2</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="리액트 고랭" />
+    <option name="LAST_COMMIT_MESSAGE" value="리액트 고랭" />
   </component>
 </project>
