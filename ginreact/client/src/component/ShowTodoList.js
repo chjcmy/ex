@@ -2,16 +2,20 @@ import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 
 
+function User({ user }) {
+    return (
+            <tr>
+            <th>
+                    {user.title}
+                </th>
+                <th>
+                    {user.content}
+                </th>
+            </tr>
+    );
+}
 
-// function User({ user }) {
-//     return (
-//         <div>
-//             <b>{user.title}</b> <span>({user.content})</span>
-//         </div>
-//     );
-// }
-
-function Device() {
+function ShowTodoList() {
 
     const [users, setUsers] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -19,22 +23,23 @@ function Device() {
 
     useEffect(() => {
         const fetchUsers = async () => {
-            try {
-                // 요청이 시작 할 때에는 error 와 users 를 초기화하고
-                setError(null);
-                setUsers(null);
-                // loading 상태를 true 로 바꿉니다.
-                setLoading(true);
+            // try {
+                // // 요청이 시작 할 때에는 error 와 users 를 초기화하고
+                // setError(null);
+                // setUsers(null);
+                // // loading 상태를 true 로 바꿉니다.
+                // setLoading(true);
                 const response = await axios.get(
                     'http://localhost:8080/gogin'
                 );
                 setUsers(response.data.result); // 데이터는 response.data 안에 들어있습니다.
                 console.log("get")
-            } catch (e) {
-                setError(e);
             }
-            setLoading(false);
-        };
+            // catch (e) {
+            //     setError(e);
+            // }
+            // setLoading(false);
+        // };
 
         fetchUsers();
     }, []);
@@ -43,15 +48,19 @@ function Device() {
     if (error) return <div>에러가 발생했습니다</div>;
     if (!users) return null;
     return (
-        <ul>
+        <div>
+        <createList />
+        <table border="1px">
+        <tbody>
             {users.map(user => (
-                <li key={user.id}>
-                    {user.title} ({user.content})
-                </li>
-            ))}
-        </ul>
+                <User user={user} key={user.id}/>
+                    ))}
+        </tbody>
+        </table>
+        </div>
     );
 }
+
 
 
 //
@@ -75,4 +84,4 @@ function Device() {
 //         );
 // }
 
-export default Device;
+export default ShowTodoList;

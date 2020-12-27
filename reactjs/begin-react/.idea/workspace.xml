@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/.idea/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/UserList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/component/Device.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/component/useAsync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/component/CreateList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/client/src/component/List.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ginreact/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/component/Device.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/component/ShowTodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/component/useAsync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
