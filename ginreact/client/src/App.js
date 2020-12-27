@@ -21,7 +21,7 @@ function App() {
     }
 
     useEffect(() => {
-        Axios.get('http://localhost:8080/gogin').then((response) => {
+        Axios.get('http://localhost/gogin').then((response) => {
             setDoList(response.data.result)
         });
     }, []);
@@ -30,10 +30,10 @@ function App() {
     const submitAddList = () => {
         params.append("title", todoList.title)
         params.append("content", todoList.content)
-        Axios.post('http://localhost:8080/createList',
+        Axios.post('http://localhost/createList',
             params
         ).then(() => {
-            Axios.get('http://localhost:8080/gogin').then((response) => {
+            Axios.get('http://localhost/gogin').then((response) => {
                 setDoList(response.data.result)
             });
         });
