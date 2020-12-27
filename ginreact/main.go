@@ -83,7 +83,7 @@ func main() {
 	}
 
 	// Start and run the server
-	router.Run(":8080")
+	router.Run(":80")
 }
 
 func CORSMiddleware() gin.HandlerFunc {
