@@ -1,5 +1,6 @@
 package main
 
+import "C"
 import (
 	"database/sql"
 	"fmt"
@@ -72,6 +73,47 @@ func main() {
 		}
 	})
 
+	router.DELETE("/deleteList/:id", func(c *gin.Context) {
+
+		var id = c.Param("id")
+		db, err := sql.Open("mysql", "cshcmi:chltjdgus123!@tcp(192.168.0.9:3306)/exam")
+
+		result, err := db.Exec("DELETE FROM tests WHERE id = (?)", id)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		// sql.Result.RowsAffected() 체크
+		n, err := result.RowsAffected()
+		if n == 1 {
+			fmt.Println(id + " row delete.")
+		}
+	})
+
+type updateList struct {
+	Id int32 `json:"Id" binding:"required"`
+	NewContent string `json:"NewContent" binding:"required"`
+	}
+
+
+	router.PUT("/updateList", func(c *gin.Context) {
+
+		var json updateList
+		c.ShouldBindJSON(&json);
+		db, err := sql.Open("mysql", "cshcmi:chltjdgus123!@tcp(192.168.0.9:3306)/exam")
+
+		result, err := db.Exec("update tests set content = (?) WHERE id = (?)", json.NewContent, json.Id)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		// sql.Result.RowsAffected() 체크
+		n, err := result.RowsAffected()
+		if n == 1 {
+			fmt.Println(" row update." )
+		}
+	})
+
 	// Setup route group for the API
 	api := router.Group("/api")
 	{
@@ -90,7 +132,7 @@ func CORSMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
 		c.Writer.Header().Set("Access-Control-Allow-Credentials", "true")
-		c.Writer.Header().Set("Access-Control-Allow-Headers", "access-control-allow-origin")
+		c.Writer.Header().Set("Access-Control-Allow-Headers", "Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization")
 		c.Writer.Header().Set("Access-Control-Allow-Methods", "GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH")
 
 		if c.Request.Method == "OPTIONS" {

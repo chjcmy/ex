@@ -13,7 +13,7 @@ function going() {
         form.append('firstname', firstname)
         form.append('lastname', lastname)
 
-        axios.post('http://localhost:8080/gogin', form)
+        axios.post('http://localhost/gogin', form)
             .then(function (response) {
                 console.log(response);
             })
