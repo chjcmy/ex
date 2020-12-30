@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../js/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../js/css/scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../js/scroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../js/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../js/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../js/ex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js/css/scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js/scroll.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +71,7 @@
       <workItem from="1609041609694" duration="595000" />
       <workItem from="1609217766507" duration="596000" />
       <workItem from="1609257100244" duration="595000" />
+      <workItem from="1609309353289" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="reactjs">
       <created>1608733252975</created>

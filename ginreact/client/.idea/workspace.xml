@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20826445-bf0e-4d19-85df-35189ecaeb3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../js/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../js/css/scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../js/scroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../js/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../js/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../js/ex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js/css/scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js/scroll.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,6 +70,7 @@
       <workItem from="1609140650803" duration="628000" />
       <workItem from="1609217765636" duration="4094000" />
       <workItem from="1609257098463" duration="2256000" />
+      <workItem from="1609309351454" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Device.js">
       <created>1609045085020</created>
