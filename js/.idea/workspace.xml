@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="054a09ad-80a1-4e39-befc-2e5d375f8d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/scroll.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scroll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ginreact/client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -28,10 +37,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ginreact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,12 +51,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chjcm\Documents\GitHub\ex\js\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.1.html">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/js/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ex.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ex.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.1.html" />
         <item itemvalue="Node.js.ex.js" />
       </list>
     </recent_temporary>
@@ -59,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609153745924</updated>
       <workItem from="1609153747041" duration="4813000" />
+      <workItem from="1609223106098" duration="5204000" />
+      <workItem from="1609257097926" duration="8644000" />
     </task>
     <servers />
   </component>
@@ -75,5 +97,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

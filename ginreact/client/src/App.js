@@ -60,7 +60,7 @@ function App() {
         Axios.put(`http://localhost/updateList`,  { Id : id, NewContent : newContent }).then(() => {
             Axios.get('http://localhost/gogin').then((response) => {
                 setDoList(response.data.result)
-                let input = document.getElementById(id);
+                let input = document.getElementById(id + 'update');
                 input.value = null;
             });
         });
@@ -84,7 +84,7 @@ function App() {
                                 <p>{val.content}</p>
 
                                 <button onClick={() => deleteList(val.id)}>Delete</button>
-                                <input type="text" id={val.id} onChange={(e)=> {
+                                <input type="text" id={val.id + 'update'} onChange={(e)=> {
                                     setNewContent(e.target.value)
                                 }}/>
                                 <button onClick={() => updateList(val.id, setNewContent)}>update</button>

@@ -4,7 +4,7 @@
 // str[0] = 'S';
 //
 // console.log(str)
-
+//
 // // 입력한 값이 업데이트 되어도 그전값이 저장 되어 있음
 //
 // let score = 80;
@@ -17,7 +17,7 @@
 //
 // console.log(score);
 // console.log(copy);
-
+//
 // // 객체는 변경 가능한 값이다
 //
 // let person = {
@@ -29,7 +29,7 @@
 // person.address = 'seoul'
 //
 // console.log(person)
-
+//
 // // 객체 위치 확인
 // let person = {
 //     name: 'lee'
@@ -42,3 +42,36 @@
 // copy.address = 'seoul'
 //
 // console.log(person)
+//
+
+// let x = 'global';
+//
+// const foo = () => {
+//     let x ='local';
+//     console.log(x);
+//     return x;
+// }
+//
+// foo();
+//
+// console.log(x);
+
+// const person = {
+//     name : 'Lee'
+// };
+//
+// person.age =20;
+//
+// console.log(Object.getOwnPropertyDescriptors(person));
+//
+// // {
+// //     name: {
+// //         value: 'Lee',
+// //             writable: true,
+// //             enumerable: true,
+// //             configurable: true
+// //     },
+// //     age: { value: 20, writable: true, enumerable: true, configurable: true }
+// // }
+
+
