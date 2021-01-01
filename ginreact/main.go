@@ -1,6 +1,5 @@
 package main
 
-import "C"
 import (
 	"database/sql"
 	"fmt"
@@ -27,7 +26,7 @@ func main() {
 	//router.GET("/", func(c *gin.Context) {
 	//	c.HTML(http.StatusOK, "./client/build/index","")
 	//})
-	router.GET("/gogin", func(c *gin.Context) {
+	router.GET("/getList", func(c *gin.Context) {
 
 		db, err := sql.Open("mysql", "cshcmi:chltjdgus123!@tcp(192.168.0.9:3306)/exam")
 

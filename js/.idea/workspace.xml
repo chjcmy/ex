@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="054a09ad-80a1-4e39-befc-2e5d375f8d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html_exam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ginreact/client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/flexbox/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/flexbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/html_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/image/man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +65,7 @@
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\js\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.scroll.html">
+  <component name="RunManager" selected="Node.js.ex.js">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/js/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -63,9 +77,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.ex.js" />
         <item itemvalue="JavaScript Debug.scroll.html" />
         <item itemvalue="JavaScript Debug.1.html" />
-        <item itemvalue="Node.js.ex.js" />
       </list>
     </recent_temporary>
   </component>
@@ -81,6 +95,9 @@
       <workItem from="1609223106098" duration="5204000" />
       <workItem from="1609257097926" duration="8644000" />
       <workItem from="1609309351222" duration="1479000" />
+      <workItem from="1609328676492" duration="8065000" />
+      <workItem from="1609394013982" duration="653000" />
+      <workItem from="1609406656450" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="html">
       <created>1609309577063</created>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculate</title>
+    <style>
+        .button {
+            text-align: center;
+        }
+        .haven {
+            height: 50px;
+        }
+        input {
+            text-align: right;
+            border: none;
+        }
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td class="haven" colspan="4">
+            <input type="text" id="put">
+        </td>
+    <tr>
+        <td class="haven" colspan="4">
+            <input type="text" id="result">
+        </td>
+    </tr>
+    <tr class="button">
+        <td colspan="3" onclick="reset()">AC</td>
+        <td colspan="1" onclick="add('%')">%</td>
+    </tr>
+    <tr class="button">
+        <td onclick="add('1')">1</td>
+        <td onclick="add('2')">2</td>
+        <td onclick="add('3')">3</td>
+        <td onclick="add('*')">X</td>
+    </tr>
+    <tr class="button">
+        <td onclick="add('4')">4</td>
+        <td onclick="add('5')">5</td>
+        <td onclick="add('6')">6</td>
+        <td onclick="add('-')">-</td>
+    </tr>
+    <tr class="button">
+        <td onclick="add('7')">7</td>
+        <td onclick="add('8')">8</td>
+        <td onclick="add('9')">9</td>
+        <td onclick="add('+')">+</td>
+    </tr>
+    <tr class="button">
+        <td colspan="2" onclick="add('0')">0</td>
+        <td colspan="1" onclick="add('.')">.</td>
+        <td colspan="1" onclick="submit()">=</td>
+    </tr>
+</table>
+<script>
+    const add = (char) => {
+            document.getElementById("put").value += char;
+    }
+
+    const reset = () => {
+        document.getElementById("put").value = "";
+        document.getElementById("result").value = "";
+    }
+
+    const submit = () => {
+        let vales = document.getElementById("put").value;
+        document.getElementById("result").value = eval(vales);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculate</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="4">
+            <input type="text" id="puts">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <input type="text" id="results">
+        </td>
+    </tr>
+        <tr>
+            <td onclick="reset()" colspan="3">AC</td>
+            <td onclick="add('%')" colspan="1">%</td>
+        </tr>
+        <tr>
+            <td onclick="add(1)" colspan ="1">1</td>
+            <td onclick="add(2)">2</td>
+            <td onclick="add(3)">3</td>
+            <td onclick="add('+')">+</td>
+        </tr>
+    <tr>
+        <td onclick="add(4)">4</td>
+        <td onclick="add(5)">5</td>
+        <td onclick="add(6)">6</td>
+        <td onclick="add('-')">-</td>
+    </tr>
+    <tr>
+        <td onclick="add(7)">7</td>
+        <td onclick="add(8)">8</td>
+        <td onclick="add(9)">9</td>
+        <td onclick="add('*')">*</td>
+    </tr>
+    <tr>
+        <td onclick="add(0)" colspan="2">0</td>
+        <td onclick="add('.')">.</td>
+        <td onclick="submit()">=</td>
+    </tr>
+</tr>
+</table>
+<script>
+    const add = (char) => {
+        document.getElementById("puts").value += char
+    }
+
+    const reset = () => {
+        document.getElementById("puts").value = "";
+        document.getElementById("results").value = "";
+    }
+
+   const submit = () => {
+        document.getElementById("results").value = eval(document.getElementById("puts").value)
+   }
+</script>
+</body>
+</html>

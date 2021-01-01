@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/flexbox/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/flexbox/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/html_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/html_1/image/man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/ex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +67,7 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,7 +87,7 @@
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact\go server" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager">
     <configuration name="go build ginreact/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ginreact" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,12 +111,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build ginreact/" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,6 +122,10 @@
       <updated>1608745522920</updated>
       <workItem from="1608873914058" duration="18239000" />
       <workItem from="1608968202333" duration="249000" />
+      <workItem from="1609337398686" duration="6335000" />
+      <workItem from="1609394013494" duration="598000" />
+      <workItem from="1609477077140" duration="2084000" />
+      <workItem from="1609482222265" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>

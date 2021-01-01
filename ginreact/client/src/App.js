@@ -24,7 +24,7 @@ function App() {
     }
 
     useEffect(() => {
-        Axios.get('http://localhost/gogin').then((response) => {
+        Axios.get('http://localhost/getList').then((response) => {
             if (response.data.result != null) {
                 setDoList(response.data.result)
             } else {
@@ -33,6 +33,15 @@ function App() {
         });
     }, []);
 
+    const getList = () => {
+        Axios.get('http://localhost/getList').then((response) => {
+            if (response.data.result != null) {
+                setDoList(response.data.result)
+            } else {
+
+            }
+        });
+    }
 
     const submitAddList = () => {
         params.append("title", todoList.title)
@@ -40,30 +49,24 @@ function App() {
         Axios.post('http://localhost/createList',
             params
         ).then(() => {
-            Axios.get('http://localhost/gogin').then((response) => {
-                setDoList(response.data.result)
-            });
+            getList();
         });
     };
 
     const deleteList = (id) => {
 
             Axios.delete(`http://localhost/deleteList/${id}`).then(() => {
-                Axios.get('http://localhost/gogin').then((response) => {
-                    setDoList(response.data.result)
-                });
+                getList();
             });
     }
 
     const updateList = (id) => {
 
         Axios.put(`http://localhost/updateList`,  { Id : id, NewContent : newContent }).then(() => {
-            Axios.get('http://localhost/gogin').then((response) => {
-                setDoList(response.data.result)
+            getList();
                 let input = document.getElementById(id + 'update');
                 input.value = null;
             });
-        });
     }
 
         return (
@@ -75,7 +78,7 @@ function App() {
                     <label>content</label>
                     <input type="text" name="content" onChange={handleCreate}/>
 
-                    <button onClick={submitAddList}>Submit</button>
+                    <button onClick={submitAddList}>submit</button>
 
                     {doList.map((val) => {
                         return (
