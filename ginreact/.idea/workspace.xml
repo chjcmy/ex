@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/html.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/flexbox/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/flexbox/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/html_1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/html_1/html_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/html_1/image/man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/ex.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/ex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/html_1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../html/html_1/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactjs/begin-react" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,6 +111,7 @@
       <workItem from="1609394013494" duration="598000" />
       <workItem from="1609477077140" duration="2084000" />
       <workItem from="1609482222265" duration="14000" />
+      <workItem from="1609579760661" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>

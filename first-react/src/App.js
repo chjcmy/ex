@@ -1,5 +1,9 @@
 import React, { Component} from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Home from './components/home';
+import Community from './components/community';
+import Mypage from './components/mypage';
 
 class Subject extends Component {
   render() {
@@ -34,8 +38,22 @@ class App extends Component
     {
         return (
             <div className="App">
-                <Subject />
-                <Nv />
+                <Router>
+                    <div className='Menu-wrapper'>
+                        <ul>
+                            <Link to='/'><li>Home</li></Link>
+                            <Link to='/community'><li>Community</li></Link>
+                            <Link to='/mypage'><li>MyPage</li></Link>
+                        </ul>
+                    </div>
+                    <div className='Contents-wrapper'>
+                        <Switch>
+                            <Route exact path='/' component={Home} />
+                            <Route path='/Community' component={Community} />
+                            <Route path='/mypage' component={Mypage} />
+                        </Switch>
+                    </div>
+                </Router>
             </div>
         );
     }
