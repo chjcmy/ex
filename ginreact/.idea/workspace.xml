@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../first-react/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/src/components/mypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/components/mypage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +127,7 @@
       <workItem from="1609719966106" duration="34485000" />
       <workItem from="1609805549669" duration="34924000" />
       <workItem from="1609866027886" duration="633000" />
-      <workItem from="1609892406217" duration="4608000" />
+      <workItem from="1609892406217" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>
@@ -200,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609099393774</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="editor">
+      <created>1609898021555</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609898021555</updated>
+    </task>
+    <task id="LOCAL-00010" summary="editor">
+      <created>1609898303187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609898303187</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +225,8 @@
     <MESSAGE value="push" />
     <MESSAGE value="change port" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
