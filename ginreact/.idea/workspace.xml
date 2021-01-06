@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../first-react/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/src/components/mypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/components/mypage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html/html_1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../html/html_1/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +38,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
@@ -31,6 +53,9 @@
       </list>
     </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1m4GbfujLL0nN6RacxsqCdArfVM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -52,7 +77,7 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactjs/begin-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +85,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -68,6 +93,7 @@
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact\client\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact\client" />
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact" />
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact\go server" />
     </key>
@@ -112,6 +138,11 @@
       <workItem from="1609477077140" duration="2084000" />
       <workItem from="1609482222265" duration="14000" />
       <workItem from="1609579760661" duration="707000" />
+      <workItem from="1609615187537" duration="625000" />
+      <workItem from="1609719966106" duration="34485000" />
+      <workItem from="1609805549669" duration="34924000" />
+      <workItem from="1609866027886" duration="633000" />
+      <workItem from="1609892406217" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>
@@ -196,5 +227,9 @@
     <MESSAGE value="change port" />
     <MESSAGE value="change" />
     <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

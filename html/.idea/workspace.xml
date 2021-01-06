@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16db09b1-6d58-48c4-b11b-ab79edcfaf6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ginreact/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first-react/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-react/src/components/mypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/components/mypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html_1/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,8 @@
       <workItem from="1609394672445" duration="3282000" />
       <workItem from="1609482237276" duration="5790000" />
       <workItem from="1609515329803" duration="1230000" />
-      <workItem from="1609566774863" duration="1776000" />
+      <workItem from="1609566774863" duration="2698000" />
+      <workItem from="1609719036366" duration="870000" />
     </task>
     <task id="LOCAL-00001" summary="HTML">
       <created>1609311629449</created>
