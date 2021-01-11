@@ -125,8 +125,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "proxy": "https://localhost:8080"
+    ]
   },
   "devDependencies": {
     "raw-loader": "^4.0.2"

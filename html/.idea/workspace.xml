@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16db09b1-6d58-48c4-b11b-ab79edcfaf6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../first-react/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../first-react/src/components/mypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../first-react/src/components/mypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ginreact/clients/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/flowers.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/exam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ginreact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chjcm\Documents\GitHub\ex\html\imgs" />
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\html\html_1\image" />
     </key>
   </component>
@@ -70,6 +87,7 @@
       <workItem from="1609515329803" duration="1230000" />
       <workItem from="1609566774863" duration="2698000" />
       <workItem from="1609719036366" duration="870000" />
+      <workItem from="1610218534842" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="HTML">
       <created>1609311629449</created>

@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/.idea/cssxfire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../django/django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html/imgs/flowers.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/cssxfire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/python_workshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_workshop/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/ex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/html_exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/exam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +68,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/chjcmy/ex" />
+      </set>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -60,6 +105,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="true" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -70,7 +116,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -83,14 +129,7 @@
       <recent name="C:\Users\chjcm\Documents\GitHub\ex\ginreact\go server" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="go build ginreact/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="ginreact" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.test">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ginreact" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,6 +146,43 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,7 +203,16 @@
       <workItem from="1609719966106" duration="34485000" />
       <workItem from="1609805549669" duration="34924000" />
       <workItem from="1609866027886" duration="633000" />
-      <workItem from="1609892406217" duration="5637000" />
+      <workItem from="1609892406217" duration="7415000" />
+      <workItem from="1609911172073" duration="584000" />
+      <workItem from="1609916929586" duration="760000" />
+      <workItem from="1609979946089" duration="1712000" />
+      <workItem from="1609997212567" duration="374000" />
+      <workItem from="1609997907962" duration="1388000" />
+      <workItem from="1610001501619" duration="15000" />
+      <workItem from="1610004012520" duration="21000" />
+      <workItem from="1610004043997" duration="1231000" />
+      <workItem from="1610015500047" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="gin">
       <created>1608822294472</created>
@@ -199,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609898303187</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="editor">
+      <created>1609898950382</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609898950382</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

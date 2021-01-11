@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8acf9ee-df63-45f3-aba9-89ce18b5d6c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ginreact/clients/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../html/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../html/html_1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../html/html_1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ginreact/client/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../first-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,6 +87,7 @@
       <workItem from="1609257100244" duration="595000" />
       <workItem from="1609309353289" duration="598000" />
       <workItem from="1609580475584" duration="1047000" />
+      <workItem from="1610066724933" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="reactjs">
       <created>1608733252975</created>

@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08a9a5c-6e67-4dcf-8b32-2969c986ab5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/reactjs/begin-react/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/begin-react/.eslintcache" afterDir="false" />
+    <list default="true" id="37cd356b-2dbc-4e96-8203-1a413d1a08d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/django/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/.idea/cssxfire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginreact/clients/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/imgs/flowers.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ginreact/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ginreact/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ginreact/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ginreact/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html_exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/exam.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactjs/begin-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/begin-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactjs/begin-react/src/CreateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/begin-react/src/CreateUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactjs/begin-react/src/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/begin-react/src/UserList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +45,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1m0LufpzhBZjpVSXitYdCyGuUT6" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\chjcm\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mueF5dQhQYlmTwGzN3ZjgRNSd3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,19 +62,43 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ex" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ex" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a08a9a5c-6e67-4dcf-8b32-2969c986ab5b" name="Default Changelist" comment="" />
-      <created>1608625786298</created>
+      <changelist id="37cd356b-2dbc-4e96-8203-1a413d1a08d9" name="Default Changelist" comment="" />
+      <created>1610347798555</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608625786298</updated>
-      <workItem from="1608625787478" duration="50000" />
+      <updated>1610347798555</updated>
+      <workItem from="1610347800610" duration="94000" />
     </task>
     <servers />
   </component>
