@@ -2,47 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baf42109-a2e5-45dc-8572-45cacf1e966f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../django/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../django/.idea/cssxfire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../django/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../django/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../django/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../django/django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../html/imgs/flowers.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/cssxfire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/python_workshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_workshop/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/ex.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/babel.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/static/css/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/templates/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reactdjango/controller/frontend/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../html/html_exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/exam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactdjango/controller/controller/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../reactdjango/controller/controller/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactdjango/controller/controller/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../reactdjango/controller/controller/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +90,7 @@
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../goworld/blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
