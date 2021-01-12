@@ -92,7 +92,7 @@ module.exports = function (proxy, allowedHost) {
             ignored: ignoredFiles(paths.appSrc),
         },
         https: getHttpsConfig(),
-        host,
+        host: host,
         headers: {
             'Access-Control-Allow-Origin': '*'
         },
