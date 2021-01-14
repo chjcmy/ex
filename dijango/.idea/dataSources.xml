@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="4e5e487c-4c2f-4673-b9a5-fdd08ffefaa0">
-      <driver-ref>sqlite.xerial</driver-ref>
+    <data-source source="LOCAL" name="mongo" uuid="9e748bcc-0df7-4011-9899-400a1a02918f">
+      <driver-ref>mongo</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\chjcm\Documents\GitHub\ex\dijango\controller\db.sqlite3</jdbc-url>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://192.168.0.9:27017</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
