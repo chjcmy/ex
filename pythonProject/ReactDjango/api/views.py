@@ -1,16 +1,7 @@
-import datetime
-from time import strftime, strptime
+from bson import ObjectId
 
-from bson import ObjectId, json_util
-from django.core.serializers.json import DjangoJSONEncoder
-from django.db.models import Func, F, Value
 from django.http import HttpResponse
-import json
 from django.core import serializers
-from django.shortcuts import render
-
-# Create your views here.
-from django.utils.formats import get_format
 
 from .models import ContentType, ContentTitle
 from django.views.decorators.csrf import csrf_exempt
@@ -59,6 +50,16 @@ def ContentType_read_post_all(request):
 
 
 def ContentTitle_read_post_all(request):
+    print(ContentTitle.objects.values())
     ContentTitleData = serializers.serialize('json', list(ContentTitle.objects.all()))
     print(ContentTitleData)
     return HttpResponse(ContentTitleData)
+
+
+def ContentType_read(request):
+    id = request.GET["id"]
+
+    SubjectContent = serializers.serialize('json', list(ContentTitle.objects.filter(_id=ObjectId(id))))
+    print(SubjectContent)
+
+    return HttpResponse(SubjectContent)

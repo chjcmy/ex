@@ -7,6 +7,8 @@ urlpatterns = [
     path('update_post/<str:id>', views.update_post),
     path('delete_post/<str:id>', views.delete_post),
     path('read_post/<str:id>', views.read_post),
+    path('ContentTypeRead', views.ContentType_read),
+    path('ContentTypeRead/<str:id>', views.ContentType_read),
     path('ContentType_read_post_all', views.ContentType_read_post_all),
     path('ContentTitle_read_post_all', views.ContentTitle_read_post_all),
 ]

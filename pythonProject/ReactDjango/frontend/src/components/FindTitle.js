@@ -1,16 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import '../../static/css/App.css';
-import ContentFind from './FrontHeader';
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 const FindTitle = ({match}) => {
 
     const [doList, setDoList] = useState([])
 
     const [titleList, setTitleList] = useState([])
-
-    console.log(match.params.name);
-
 
     useEffect(() => {
         Axios.get('http://localhost:8000/api/ContentType_read_post_all').then((response) => {
@@ -26,7 +23,7 @@ const FindTitle = ({match}) => {
         })
     }, []);
 
-    console.log(match.params.name);
+
     return (
         <div className="find-toolbar">
             <div className="find-block">
@@ -53,23 +50,26 @@ const FindTitle = ({match}) => {
                     <th className="tb-3">시간</th>
                     <th className="tb-4">수정/삭제</th>
                     {titleList.map((val) => {
-                            return (
-                                <tr>
-                                    <td>{val.fields.subject}</td>
-                                    <td onClick={() => alert(val.pk)}>{val.fields.content}</td>
-                                    <td>{val.fields.date}</td>
-                                    <td>
-                                        <button onClick={() => alert('Click2')}/>
-                                        <button onClick={() => alert('Click3')}/>
-                                    </td>
-                                </tr>
-                            )
-                        }
-                    )}
-                </table>
-            </div>
-        </div>
-    );
-};
+                        return (
+                            <tr>
+                                <td>{val.fields.subject}</td>
+                                <td><Link
+                                    to={`/read/id=${val.pk}`}>{val.fields.title}</Link>
+                                </td>
+                                <td>{val.fields.date}</td>
+                                <td>
+                                    <button onClick={() => alert('Click2')}/>
+                                    <button onClick={() => alert('Click3')}/>
+                                </td>
+                            </tr>
+                        )
+                    }
+                        )}
+                        </table>
+                <button><Link to={'/make'}>만들기</Link></button>
+                        </div>
+                        </div>
+                        );
+                    };
 
-export default FindTitle;
+                    export default FindTitle;
