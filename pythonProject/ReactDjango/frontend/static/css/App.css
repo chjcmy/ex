@@ -1,0 +1,161 @@
+@import "./reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    max-width: 1920px;
+    margin: 30px auto;
+    padding: 0 4%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.main-nav li a {
+    display: block;
+    padding: 10px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.logo {
+    width: 20%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+article {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+.home-nav {
+    flex-direction: row;
+
+}
+
+.home-nav li {
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+.gif-contain {
+    width: 700px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.find-block {
+    height: 70%;
+}
+
+.find-block h1 {
+    margin-bottom: 20px;
+}
+
+.find-menu {
+    float: right;
+    vertical-align: bottom;
+}
+
+.find-menu div {
+    float: right;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.find-block select {
+    width: 25%;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 100%;
+    color: #999;
+    border: 2px solid #ddd;
+}
+
+.find-block input {
+    width: 35%;
+    height: 40px;
+    font-size: 100%;
+    margin-right: 20px;
+    color: #999;
+    border: 2px solid #ddd;
+}
+
+.find-block button {
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    color: #999;
+    border: 2px solid #ddd;
+}
+
+.find-table {
+    margin-top: 8%;
+    width: 90%;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.find-table th {
+    color: #168;
+    background: #f0f6f9;
+}
+
+.find-table th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.find-table th:first-child, .find-table td:first-child {
+    width: 20%;
+}
+
+.tb-1 {
+    width: 20%
+}
+
+.tb-2 {
+    width: 40%
+}
+
+.tb-3 {
+    width: 20%
+}
+
+.tb-4 {
+    width: 20%
+}
+

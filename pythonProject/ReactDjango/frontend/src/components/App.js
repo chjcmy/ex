@@ -1,15 +1,26 @@
-import React, {Component} from "react";
-import {render} from "react-dom";
+import React from "react";
+import '../../static/css/App.css'
+import HomePage from "./HomePage";
+import FrontHeader from "./FrontHeader";
+import {Route} from "react-router-dom";
+import FindTitle from "./FindTitle";
 
-export default class App extends Component {
-    constructor(props) {
-        super(props);
-    }
+function App() {
+    return (
+         <div className="app">
+            <FrontHeader/>
+            <div className="news-contents wrapper">
+                <aside>
 
-    render() {
-        return <h1>hellow choi</h1>;
-    }
+                </aside>
+                <article>
+                        <Route exact path="/" component={HomePage}/>
+                        <Route path="/find" exact render={() => <div>유저를 선택해주세요.</div>}/>
+                        <Route path="/find/:name" component={FindTitle}/>
+                </article>
+            </div>
+        </div>
+    );
 }
 
-const appDiv = document.getElementById("app");
-render(<App/>, appDiv);
+export default App;

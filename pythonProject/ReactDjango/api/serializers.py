@@ -1,11 +1,23 @@
+from django.forms import forms
 from rest_framework import serializers
-from .models import Type
+from .models import ContentType, ContentTitle
 
 
-class ApiSerializer(serializers.ModelSerializer):
+class ContentTypeSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Type
+        model = ContentType
         fields = ('id',
                   'type',
                   'name',
                   'url')
+
+
+class ContentTitleSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = ContentTitle
+        fields = ('id',
+                  'subject',
+                  'title',
+                  'content',
+                  'date')
