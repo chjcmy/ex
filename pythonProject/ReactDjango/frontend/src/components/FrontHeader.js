@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Axios from 'axios'
 import '../../static/css/App.css'
 import {Link} from 'react-router-dom';
+import {Img} from 'react-image'
 
 function FrontHeader() {
 
@@ -20,8 +21,7 @@ function FrontHeader() {
             <h1>
                 <a href="/">
                     <figure>
-                        <div>hellow</div>
-                        {/*<img className="logo" src={logo} alt="나만의 홈 페이지" />*/}
+                        <div><Img src='../../static/images/go.gif'/></div>
                     </figure>
                 </a>
             </h1>

@@ -3,7 +3,6 @@ import {useParams} from 'react-router';
 import queryString from 'query-string';
 import '../../static/css/App.css';
 import Axios from "axios";
-import {Link} from "react-router-dom";
 
 const ReadContent = () => {
 
@@ -22,7 +21,6 @@ const ReadContent = () => {
     }, []);
 
     return (
-        <div className="find-toolbar">
             <div>
                 {readList.map((val) => {
                         return (
@@ -37,7 +35,6 @@ const ReadContent = () => {
                         )
                     }
                 )}
-            </div>
         </div>
     );
 };

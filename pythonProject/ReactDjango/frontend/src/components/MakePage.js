@@ -36,12 +36,22 @@ function MakePage() {
 
     }
     const postThem = () => {
-
+        console.log(select, title, content)
+        Axios.post('http://localhost:8000/api/add_post/ContentTitle', {
+            data: {
+                subject: select, title: title, content: content
+            }
+        }).then((response) => {
+            if (response.data != null) {
+                console.log("insert")
+            }
+        })
     }
 
     return (
         <div>
             <select onChange={e => setSelect(e.currentTarget.value)}>
+                <option value="" selected disabled hidden>==선택하세요==</option>
                 {
                     doList.map((val) => {
                             return (
@@ -63,7 +73,7 @@ function MakePage() {
                 onChange={onChange}
                 value={content}
             />
-            <button onClick={postThem}>초기화</button>
+            <button onClick={postThem}>저장</button>
             <div>
                 <b>값 : </b>
                 {select}:{title}:({content})

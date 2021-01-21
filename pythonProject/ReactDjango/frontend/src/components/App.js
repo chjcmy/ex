@@ -6,6 +6,8 @@ import {Route} from "react-router-dom";
 import FindTitle from "./FindTitle";
 import ReadContent from "./ReadContent";
 import MakePage from "./MakePage";
+import ModiFiPage from "./modifiPage";
+import SHOWSIDE from "./showside";
 
 function App() {
     return (
@@ -13,7 +15,7 @@ function App() {
             <FrontHeader/>
             <div className="news-contents wrapper">
                 <aside>
-
+                    <SHOWSIDE/>
                 </aside>
                 <article>
                         <Route exact path="/" component={HomePage}/>
@@ -21,6 +23,7 @@ function App() {
                         <Route path="/find/:name" component={FindTitle}/>
                         <Route path="/read/:url" component={ReadContent}/>
                         <Route path="/make" component={MakePage}/>
+                        <Route path="/modify" component={ModiFiPage}/>
                 </article>
             </div>
         </div>
