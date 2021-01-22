@@ -37,8 +37,7 @@ function SHOWSIDE(update) {
                 <ul className="main-nav">
                     {doList.map((val) => {
                         const {pk} = val;
-                        const {subject} = val.fields;
-                        const {title} = val.fields;
+                        const {subject, title} = val.fields;
                         return (
                             <li key={subject}>
                                 <Link to={"/read/id=" + pk} length='10'>
