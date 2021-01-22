@@ -7,6 +7,8 @@ import Box from '@material-ui/core/Box';
 import {Img} from 'react-image'
 
 
+
+
 const FindTitle = ({match}) => {
 
     const [doList, setDoList] = useState([])
@@ -39,6 +41,8 @@ const FindTitle = ({match}) => {
                 Axios.get('http://localhost:8000/api/ContentTitle_read_post_all').then((response) => {
                     if (response.data != null) {
                         setTitleList(response.data)
+
+
                     }
                 })
             }

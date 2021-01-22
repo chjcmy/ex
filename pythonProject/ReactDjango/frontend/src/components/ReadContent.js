@@ -18,7 +18,7 @@ const ReadContent = () => {
         })
 
         setReadList(result.data)
-    }, []);
+    }, [url]);
 
     return (
             <div>

@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16db09b1-6d58-48c4-b11b-ab79edcfaf6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ginreact/clients/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/flowers.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ginreact/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ginreact/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ginreact/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/exam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reactjs/begin-react/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/ReadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/ReadContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/modifiPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/modifiPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/showside.js" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/ReactDjango/frontend/src/components/showside.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +70,9 @@
       <workItem from="1609566774863" duration="2698000" />
       <workItem from="1609719036366" duration="870000" />
       <workItem from="1610218534842" duration="3451000" />
+      <workItem from="1611235961349" duration="365000" />
+      <workItem from="1611236337728" duration="466000" />
+      <workItem from="1611236821497" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="HTML">
       <created>1609311629449</created>

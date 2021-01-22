@@ -14,6 +14,9 @@ function FrontHeader() {
                 setDoList(response.data)
             }
         })
+          .catch((error) => {
+        console.log(error);
+      });
     }, []);
 
     return (

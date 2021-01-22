@@ -17,8 +17,8 @@ const ModiFiPage = (id) => {
     })
     console.log(queryable['/modify/id']);
 
-    useEffect(async () => {
-        const result = await Axios.get('http://localhost:8000/api/ContentTypeRead', {
+    useEffect(() => {
+        const result = Axios.get('http://localhost:8000/api/ContentTypeRead', {
             params: {
                 id: queryable['/modify/id']
             }
@@ -49,7 +49,7 @@ const ModiFiPage = (id) => {
     const upDate = () => {
         Axios.post('http://localhost:8000/api/update_post', {
             data: {
-               pk: modiFiVal.pk,subject: modiFiVal.subject, title: modiFiVal.title, content: modiFiVal.content
+                pk: modiFiVal.pk, subject: modiFiVal.subject, title: modiFiVal.title, content: modiFiVal.content
             }
         }).then((response) => {
             if (response.data != null) {
@@ -70,7 +70,7 @@ const ModiFiPage = (id) => {
                             <input name="title" placeholder="제목" onChange={onChange} value={modiFiVal.title}/>
                             <h3>내용</h3>
                             <input name="content" placeholder="내용" onChange={onChange} value={modiFiVal.content}/>
-                            <button onClick={upDate} >저장</button>
+                            <button onClick={upDate}>저장</button>
                         </div>
                     )
                 }
