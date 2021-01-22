@@ -1,19 +1,15 @@
-// eslint-disable-next-line no-unused-vars,import/no-extraneous-dependencies
+// eslint-disable-next-line import/no-extraneous-dependencies
 import React, { useEffect, useState } from 'react';
 import '../../static/css/App.css';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Axios from 'axios';
-// eslint-disable-next-line no-unused-vars
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line no-unused-vars,import/no-extraneous-dependencies
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Moment from 'react-moment';
-// eslint-disable-next-line no-unused-vars
 import Box from '@material-ui/core/Box';
-// eslint-disable-next-line no-unused-vars
 import { Img } from 'react-image';
 
-// eslint-disable-next-line no-unused-vars
-const FindTitle = ({ match }) => {
+const FindTitle = () => {
   const [doList, setDoList] = useState([]);
 
   const [titleList, setTitleList] = useState([]);
@@ -78,13 +74,9 @@ const FindTitle = ({ match }) => {
               }}
             >
               <option value="">선택해주세요</option>
-              {doList.map((val) => {
-                return (
-                  <option value={val.fields.subject}>
-                    {val.fields.subject}
-                  </option>
-                );
-              })}
+              {doList.map((val) => (
+                <option value={val.fields.subject}>{val.fields.subject}</option>
+              ))}
             </select>
             <input
               type="text"
@@ -99,33 +91,31 @@ const FindTitle = ({ match }) => {
       </div>
       <div>
         <Box>
-          {titleList.map((val) => {
-            return (
-              <Box>
-                <Link to={`/read/id=${val.pk}`}>
-                  <Img
-                    className="front-Box"
-                    src="../../static/images/gopher.gif"
-                  />
-                  <h2>{val.fields.subject}</h2>
-                  <h3 className="find-h2">{val.fields.title}</h3>
-                  <Moment
-                    className="margin-top-10"
-                    format="YYYY/MM/DD"
-                    date={val.fields.date}
-                  ></Moment>
+          {titleList.map((val) => (
+            <Box>
+              <Link to={`/read/id=${val.pk}`}>
+                <Img
+                  className="front-Box"
+                  src="../../static/images/gopher.gif"
+                />
+                <h2>{val.fields.subject}</h2>
+                <h3 className="find-h2">{val.fields.title}</h3>
+                <Moment
+                  className="margin-top-10"
+                  format="YYYY/MM/DD"
+                  date={val.fields.date}
+                ></Moment>
+              </Link>
+              <div className="select-Button">
+                <Link to={`/modify/id=${val.pk}`}>
+                  <button className="select-modify">수정</button>
                 </Link>
-                <div className="select-Button">
-                  <Link to={`/modify/id=${val.pk}`}>
-                    <button className="select-modify">수정</button>
-                  </Link>
-                  <button value={val.pk} onClick={() => Delete(val.pk)}>
-                    삭제
-                  </button>
-                </div>
-              </Box>
-            );
-          })}
+                <button value={val.pk} onClick={() => Delete(val.pk)}>
+                  삭제
+                </button>
+              </div>
+            </Box>
+          ))}
         </Box>
       </div>
       <p />

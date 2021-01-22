@@ -3,9 +3,7 @@ import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Axios from 'axios';
 import '../../static/css/App.css';
-// eslint-disable-next-line no-unused-vars
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line no-unused-vars
 import { Img } from 'react-image';
 
 function FrontHeader() {
@@ -36,13 +34,11 @@ function FrontHeader() {
       </h1>
       <nav className="header-nav">
         <ul className="main-nav">
-          {doList.map((val) => {
-            return (
-              <li key={val.fields.subject}>
-                <Link to={`/find${val.fields.url}`}>{val.fields.subject}</Link>
-              </li>
-            );
-          })}
+          {doList.map((val) => (
+            <li key={val.fields.subject}>
+              <Link to={`/find${val.fields.url}`}>{val.fields.subject}</Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
