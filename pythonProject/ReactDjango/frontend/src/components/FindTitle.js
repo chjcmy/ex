@@ -3,10 +3,13 @@ import React, { useEffect, useState } from 'react';
 import '../../static/css/App.css';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Axios from 'axios';
+// eslint-disable-next-line no-unused-vars
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars,import/no-extraneous-dependencies
 import Moment from 'react-moment';
+// eslint-disable-next-line no-unused-vars
 import Box from '@material-ui/core/Box';
+// eslint-disable-next-line no-unused-vars
 import { Img } from 'react-image';
 
 // eslint-disable-next-line no-unused-vars
@@ -43,6 +46,7 @@ const FindTitle = ({ match }) => {
           console.log(response);
           Axios.get(
             'http://localhost:8000/api/ContentTitle_read_post_all',
+            // eslint-disable-next-line no-shadow
           ).then((response) => {
             if (response.data != null) {
               setTitleList(response.data);

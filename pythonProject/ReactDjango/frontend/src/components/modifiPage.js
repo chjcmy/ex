@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies,no-unused-vars
 import React, { useEffect, useState } from 'react';
 import '../../static/css/App.css';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -7,6 +8,7 @@ import queryString from 'query-string';
 
 const ModiFiPage = (id) => {
   const [readList, setReadList] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const { url } = useParams();
   const queryable = queryString.parse(id.location.pathname);
   const [modiFiVal, setModifival] = useState({
@@ -31,7 +33,7 @@ const ModiFiPage = (id) => {
       content: result.data[0].fields.content,
     });
     setReadList(result.data);
-  }, []);
+  }, [url]);
 
   const onChange = (e) => {
     const { name, value } = e.target;
@@ -61,7 +63,7 @@ const ModiFiPage = (id) => {
 
   return (
     <div>
-      {readList.map((val) => {
+      {readList.map(() => {
         return (
           <div>
             <input type="hidden" />
