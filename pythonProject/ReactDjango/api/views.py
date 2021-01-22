@@ -1,18 +1,14 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
-from encodings.utf_8 import decode
 
 from bson import ObjectId
-from django.db.models import Q
-from django.db.models.sql import AND
-
-from django.http import HttpResponse
 from django.core import serializers
-from django.utils.datetime_safe import datetime, date
+from django.db.models import Q
+from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
 from rest_framework.utils import json
 
 from .models import ContentType, ContentTitle
-from django.views.decorators.csrf import csrf_exempt
 
 
 @csrf_exempt

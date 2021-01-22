@@ -1,55 +1,56 @@
-import React, {useState, useEffect, useRef, useLayoutEffect} from 'react';
-import Axios from 'axios'
-import '../../static/css/App.css'
-import {Link} from 'react-router-dom';
-
+// eslint-disable-next-line no-unused-vars,import/no-extraneous-dependencies
+import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import Axios from 'axios';
+import '../../static/css/App.css';
+// eslint-disable-next-line no-unused-vars
+import { Link } from 'react-router-dom';
 
 function SHOWSIDE(update) {
+  const inputRef = useRef();
 
-    const inputRef = useRef();
+  console.log(inputRef.val);
 
-    console.log(inputRef.val)
+  const [doList, setDoList] = useState([]);
 
-    const [doList, setDoList] = useState([])
+  console.log(update);
+  const signpost = () => {
+    Axios.get('http://localhost:8000/api/newpost').then((response) => {
+      if (response.data != null) {
+        console.log(response.data);
+        setDoList(response.data);
+      }
+    });
+  };
 
-    console.log(update)
-    const signpost = () => {
-        Axios.get('http://localhost:8000/api/newpost').then((response) => {
-            if (response.data != null) {
-                console.log(response.data)
-                setDoList(response.data)
-            }
-        })
-    }
+  useEffect(() => {
+    signpost();
+  }, []);
 
-    useEffect(() => {
-        signpost()
-    }, []);
+  useLayoutEffect(() => {
+    signpost();
+  }, []);
 
-    useLayoutEffect(() => {
-        signpost()
-    }, [])
-
-    return (
-        <div>
-            <nav className="side-nav">
-                <h2>최신글</h2>
-                <ul className="main-nav">
-                    {doList.map((val) => {
-                        const {pk} = val;
-                        const {subject, title} = val.fields;
-                        return (
-                            <li key={subject}>
-                                <Link to={"/read/id=" + pk} length='10'>
-                                    {title}
-                                </Link>
-                            </li>
-                        );
-                    })}
-                </ul>
-            </nav>
-        </div>
-    )
+  return (
+    <div>
+      <nav className="side-nav">
+        <h2>최신글</h2>
+        <ul className="main-nav">
+          {doList.map((val) => {
+            const { pk } = val;
+            const { subject, title } = val.fields;
+            return (
+              <li key={subject}>
+                <Link to={`/read/id=${pk}`} length="10">
+                  {title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </div>
+  );
 }
 
 export default SHOWSIDE;
